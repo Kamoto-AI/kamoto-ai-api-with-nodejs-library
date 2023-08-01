@@ -1,0 +1,22 @@
+{
+  "name": "kamoto-ai-api-with-nodejs-library",
+  "version": "1.0.0",
+  "description": "kamoto-ai-api-with-nodejs-library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamoto-AI/kamoto-ai-api-with-nodejs-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kamoto-AI/kamoto-ai-api-with-nodejs-library/issues"
+  },
+  "homepage": "https://github.com/Kamoto-AI/kamoto-ai-api-with-nodejs-library#readme",
+  "dependencies": {
+    "kamotoai": "^1.0.5"
+  }
+}
