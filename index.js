@@ -20,6 +20,6 @@ const messages = [
   },
 ];
 
-KamotoAI.chat("My name is Toshendra").then(response => console.log(response.data.choices[0].message.content));
+KamotoAI.chat("My name is Toshendra").then(response => console.log(response.choices[0].message.content));
 
-KamotoAI.chatWithHistory(messages).then(response => console.log(response.data.choices[0].message.content));
+KamotoAI.chatWithHistory(messages).then(response => console.log(response.choices[0].message.content));
